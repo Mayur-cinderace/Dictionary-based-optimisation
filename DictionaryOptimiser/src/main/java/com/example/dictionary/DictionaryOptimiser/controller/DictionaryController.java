@@ -2,6 +2,7 @@ package com.example.dictionary.DictionaryOptimiser.controller;
 import com.example.dictionary.DictionaryOptimiser.service.DictionaryService;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/dictionary")
 public class DictionaryController {
